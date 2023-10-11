@@ -30,4 +30,5 @@ def numpy_reduce(s):
     return np.mean(temp)
 
 max_mean=numpy_reduce(weather_data['max_temperature'])
+print("最高气温均值：%.2f"%max_mean)
 min_mean=np.mean(weather_data['min_temperature'])
